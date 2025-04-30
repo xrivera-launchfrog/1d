@@ -1390,6 +1390,11 @@ blockquote {
   align-items: flex-start;
 }
 
+.col.lg-6.centre-align.teamtitle {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .col.lg-6.centre-align-vertical {
   justify-content: center;
 }
@@ -1484,6 +1489,7 @@ blockquote {
 }
 
 .paragraph-small.no-top-margins {
+  align-self: flex-start;
   margin-top: 0;
 }
 
@@ -2190,6 +2196,7 @@ blockquote {
 }
 
 .no-bottom-margins {
+  align-self: flex-start;
   margin-bottom: 0;
   font-weight: 700;
 }
@@ -2561,6 +2568,7 @@ blockquote {
 
 .div-block-29 {
   flex-direction: column;
+  flex: 0 auto;
   justify-content: center;
   display: flex;
 }
@@ -3454,6 +3462,11 @@ blockquote {
   grid-auto-rows: 1fr;
   align-items: start;
   width: 100%;
+}
+
+.grid-7 {
+  flex: 1;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media screen and (max-width: 991px) {
